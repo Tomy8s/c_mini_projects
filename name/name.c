@@ -2,9 +2,10 @@
 #include <string.h>
 
 int main() {
-  char name[10];
+  int name_length_plus_1 = 4;
+  char name[name_length_plus_1];
   printf("Please enter your name\n>");
-  fgets(name, 10, stdin);
-  name[strlen(name)-1] = 0;
+  fgets(name, name_length_plus_1, stdin);
+  name[name_length_plus_1 - 1] = 0;
   printf("Hi %s!\n", name);
 };
