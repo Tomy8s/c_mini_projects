@@ -9,8 +9,11 @@ My first program to just get something out.
 ## [Name](./name)
 Very basic user interaction. You give it your name and it says hello!
 
-## [add](./add)
+## [Add](./add)
 Simple program that adds two user inputs.
+
+## [Calculator](./calc)
+A basic calculator that adds, subtracts, divides and multiplies.
 
 # [Compile and Run](./c) (bash script)
 A simple bash script to compile given the name of a c file in a folder of the same name.
