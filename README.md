@@ -25,6 +25,6 @@ $ ./c hello_world
 Produces the following output:
 ```
 Removed old binary!
-Running hello_world:
+Running hello_world.exe:
 Hello World!
 ```
